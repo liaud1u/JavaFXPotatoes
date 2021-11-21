@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="321.0" prefWidth="295.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.liaud1u.javafxpotatoes.controller.AddPotatoController">
+   <children>
+      <Label alignment="CENTER" layoutX="27.0" layoutY="22.0" prefHeight="25.0" prefWidth="262.0" text="Ajouter une variété de Pomme de Terre" textAlignment="CENTER">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button layoutX="90.0" layoutY="276.0" mnemonicParsing="false" onAction="#add" prefHeight="25.0" prefWidth="121.0" text="Ajouter une variété" />
+      <Label alignment="CENTER" layoutX="8.0" layoutY="81.0" prefHeight="17.0" prefWidth="101.0" text="Variété" />
+      <Label alignment="CENTER" layoutX="8.0" layoutY="110.0" prefHeight="17.0" prefWidth="101.0" text="Description" />
+      <Label alignment="CENTER" layoutX="8.0" layoutY="135.0" prefHeight="17.0" prefWidth="101.0" text="Couleur de la peau" />
+      <Label alignment="CENTER" layoutX="8.0" layoutY="161.0" prefHeight="17.0" prefWidth="101.0" text="Couleur de la chair" />
+      <Label alignment="CENTER" layoutX="8.0" layoutY="188.0" prefHeight="17.0" prefWidth="101.0" text="Couleur de la fleur" />
+      <Label alignment="CENTER" layoutX="8.0" layoutY="215.0" prefHeight="17.0" prefWidth="101.0" text="Taille du plant" />
+      <TextField fx:id="variety" layoutX="124.0" layoutY="78.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="description" layoutX="124.0" layoutY="105.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="colourSkin" layoutX="124.0" layoutY="132.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="colourFlesh" layoutX="124.0" layoutY="159.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="colourFlower" layoutX="124.0" layoutY="187.0" prefHeight="25.0" prefWidth="149.0" />
+      <TextField fx:id="height" layoutX="124.0" layoutY="214.0" prefHeight="25.0" prefWidth="149.0" />
+   </children>
+</Pane>

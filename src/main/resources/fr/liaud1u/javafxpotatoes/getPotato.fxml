@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="363.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fr.liaud1u.javafxpotatoes.controller.GetPotatoController">
+   <children>
+      <Label alignment="CENTER" layoutX="65.0" layoutY="12.0" prefHeight="35.0" prefWidth="213.0" text="Rechercher une variété" textAlignment="CENTER">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="24.0" layoutY="171.0" prefHeight="17.0" prefWidth="106.0" text="Variété" />
+      <Label alignment="CENTER" layoutX="24.0" layoutY="199.0" prefHeight="17.0" prefWidth="106.0" text="Description" />
+      <Label alignment="CENTER" layoutX="24.0" layoutY="239.0" prefHeight="17.0" prefWidth="106.0" text="Couleur de la peau" />
+      <Label alignment="CENTER" layoutX="24.0" layoutY="270.0" prefHeight="17.0" prefWidth="106.0" text="Couleur de la chair" />
+      <Label alignment="CENTER" layoutX="24.0" layoutY="305.0" prefHeight="17.0" prefWidth="106.0" text="Couleur de la fleur" />
+      <Label alignment="CENTER" layoutX="24.0" layoutY="332.0" prefHeight="17.0" prefWidth="106.0" text="Taille du plant" />
+      <Button layoutX="111.0" layoutY="96.0" mnemonicParsing="false" onAction="#recherche" prefHeight="25.0" prefWidth="121.0" text="Rechercher" />
+      <Label alignment="CENTER" layoutX="73.0" layoutY="59.0" prefHeight="17.0" prefWidth="61.0" text="ID" />
+      <TextField fx:id="id" layoutX="149.0" layoutY="57.0" prefHeight="25.0" prefWidth="121.0" text="1" />
+      <Separator layoutX="71.0" layoutY="146.0" prefWidth="200.0" />
+      <Label fx:id="colourFlesh" alignment="CENTER" layoutX="134.0" layoutY="270.0" prefHeight="17.0" prefWidth="177.0" />
+      <Label fx:id="colourFlower" alignment="CENTER" layoutX="134.0" layoutY="305.0" prefHeight="17.0" prefWidth="177.0" />
+      <Label fx:id="height" alignment="CENTER" layoutX="149.0" layoutY="332.0" prefHeight="17.0" prefWidth="177.0" />
+      <Label fx:id="variety" alignment="CENTER" layoutX="123.0" layoutY="166.0" prefHeight="17.0" prefWidth="200.0" />
+      <Label fx:id="description" alignment="CENTER" layoutX="134.0" layoutY="194.0" prefHeight="43.0" prefWidth="186.0">
+         <font>
+            <Font size="7.0" />
+         </font></Label>
+      <Label fx:id="colourSkin" alignment="CENTER" layoutX="140.0" layoutY="239.0" prefHeight="17.0" prefWidth="186.0" />
+
+   </children>
+</Pane>
